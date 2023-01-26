@@ -43,13 +43,39 @@ In this project
 ## Analysis
 
 
+### part1 Plotting number of licences issued everyday vs different time spans.
 
+#### In this part, I will take a narrow down approach 
 
-## part1 plotting changes in year,month, hours etc.
-
-#### Figure1: Number of issued licences from 1997 to 2022
+#### Figure1: Number of issued licences from 1997 to 2022.
 ![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/total_count.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/total_count.png)
-- As you can see, there is a seasonality in the plot. It looks like many Bus-license were issued between the end and the beginning of the year. However, it is hard to see due to long time length. Let's plot yearly and monthly counts !!
+- As you can see, there is a seasonality in the plot. It looks like many Bus-license were issued between the end and the beginning of the year. However, it is hard to see the seasonality due to the long time length. 
+- So, let's narrow down the x-axis from 2016 to 2019!!
+
+
+![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/2015-2018_year.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/2015-2018_year.png)
+- The plot clearly shows seasonality in the daily number of issued licences. 
+- Looks like the curve is centred around every January, and there is another curve after January as well, but not clear when.
+- Let's plot a bar chart to see which months have the highest count.
+
+
+![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/month_count.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/month_count.png)
+- The plot tells most business obtain new licenses between November to February and December has a highest count.
+- The duration is long probably due to the fact that workers who issue licences have own capacity to hundle all applications.  
+- Just like how it takes more than few month to receive Study Permit or Work Permit in Canada.
+
+
+![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/2016-2017.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/2016-2017.png)
+- This is narrowed version of the plot2 and the time span is from November 2016 to 2017 March.
+- It shows negative trend because November and December 2016 have steady moving average but it drops after Christmas season and it continues till beginning of the February.
+- There small increase in moving average in February but it gets lower again from beginning of the March 2017.
+- One interesting thing is that there are constat fluctuations every week, it might be due to weekly schedule of workers who process the applications.
+- Let's narrow down again to determine the factor of fluctuations.
+
+![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/2016_nov.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/2016_nov.png)
+- acording to the [year 2016 calendar](https://www.timeanddate.com/calendar/?year=2016&country=27), the days which have significantly low number of issued licences are weekends or Holiday. For example, there are 3 with low number of issued licences in a row because the first day was Remembrance Day(Holiday).
+
+
 
 #### Figure2: Yearly counts.
 ![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/year_count.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/year_count.png)
@@ -58,11 +84,6 @@ In this project
 - Each year in the plot means the time when the licenses were issued. It's not always same the licence year. For example, some businesses apply for 2023 licenses on 2022 and receive it on 2022 December.
 
 
-#### Figure3: Monthly counts.
-![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/month_count.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/month_count.png)
-
-- The plot shows better undersanding of Figure1 because it captures the seasonality which captured in first plot very well. In total, most business obtain new licenses between November to February. The duration is long probably due to the fact that workers who issue licences have own capacity to hundle 
-all applications.  Just like how it takes more than few month to receive Study Permit or Work Permit in Canada.
 
 
 #### Figure4: Hourly counts.
@@ -74,9 +95,7 @@ all applications.  Just like how it takes more than few month to receive Study P
 - It seems consistent with the productivity of standard office workers because the number increases throughout noon. The peak is between 10 am to 12 pm but the number decreases during lunch break time. After the break, the number of applications issued increased from 1~3pm but kept decreasing again after 3 pm till the end of work time.
 - If the above two assumptions are valid, then it is possible to think officers of business licences work normally.
 
-#### Figure5: Hourly counts.
-![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/application_status_pi_chart.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/application_status_pi_chart.png)
-- It shows 80% of applications are issued.
+
 
 #### Figure5: Hourly counts.
 ![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/folderyear_line_.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/folderyear_line_.png)
@@ -102,9 +121,6 @@ The data does not show whether or not the business owners respond to the economi
 - The plot shows there is not a strong linear relationship between 
 - Assuming business owner apply for new licenses based on previous year's economy.
 
-![]()
-![]()
-![]()
 ![]()
 ![]()
 ![]()
