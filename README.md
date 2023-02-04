@@ -76,6 +76,7 @@ In this project
 
 
 ## Figure5: Hourly counts.
+
 ![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/hour_count.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/hour_count.png)
 ![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/hour_detail_count.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/hour_detail_count.png)
 
@@ -91,7 +92,7 @@ In this project
 - Splitted the countings into each of those most actively issued months 
 - It shows hourly changes in workers productivity are consistent regardelss of months.
 
-## Figure6: Hourly counts.
+## Figure6: Percentage changes in number of licenses for each license holding year.
 ![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/folderyear_line_.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/folderyear_line_.png)
 ![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/pct_change_year_bar.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/pct_change_year_bar.png)
 
@@ -109,21 +110,39 @@ the number of each year's business licenses.
 
 ## Part2 Testing Hypothesis: Is there correlation between changes in number of licenses and mesurements of ecnomy ?
 
-Strong Linear relationship is not found 
-
-Plot1: standardized changes in GNP vs Business license issued number.
-
-
+There is almost no linear relationship between changes in number of issued business licenses with changes in GDP and Inflation rate.
+However,GNP showed weak Pearson's correlation.
+Therefore, I will investigate the variable.
 
 
-![]()
-![]()
-![]()
+Plot1: Standardized changes in GNP vs Business license issued number. 
 
+![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/gnp_vs_bl2.png
+](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/gnp_vs_bl2.png
+)
+- Assuming business owners respond to GNP changes in the same year.
+- Both shows negative changes in 2020 and strong resilience in 2021.
+- Other than after the pandemic, it seems like both line charts fit well if business owners respond previous year's GNP.
+
+Plot2: Standardized changes in GNP vs Business license issued number part 2.
+![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/shifted_gnp_vs_bl2.png
+](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/shifted_gnp_vs_bl2.png
+)
+- Assuming business owners respond to GNP changes in the previous year.
+- Both line charts fit very well between 2000 to 2005, 2010 to 2018.
+- However, the charts do not fit after 2019.
+
+### Summary 
+- It seems plausible to assume business owners responded to the previous year's domestic economy when it is stable. Stable means neither rapid growth nor strong recession.
+- Also plausible to assume business owners responded to the same year's domestic economy since 2020. 
+- Although changes in GNP does not fit perfectly well with changes in number of business license issued, GNP growth rate can be use as a approximate predictor in  business license issues for next year.
 
 
 ## Conclusion
-
+- The number of business licenses is kept increasing in recent 25 years.
+- Pandemic affected negatively but showed strong resilience after 2020.
+- Most owners receive their licenses between November and February.
+- Business owners presumably responded previous year's domestic economy the past but started to respond to the current year's domestic economy after the pandemic.
 
 
 ## Credits
