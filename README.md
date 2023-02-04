@@ -30,20 +30,15 @@ In this project
 ## Questions_to_answer
 - **Q1 Are there any trends/seasonalities in the time when licences were issued?**
 - **21 Are there any trends/seasonalities in the number of issued licences for each license year?**
-- **Q3 Are there relationships between number of licences for each license years **
+- **Q3 Are there relationships between changes in number of issued licenses and measurements of economy? **
 
-## Hypothesis
-- **1 Self-development books are one of the top-seller genres.**
-- **2 Bestseller books tend to have higher ratings.**
-- **3 Rating is a big purchasing factor for customers nowadays because many people check reviews before buying goods and services. For example, restaurants, online shopping and Airbnb.**
-  
 
 
 
 ## Analysis
 
 
-# part1 Plotting number of licences issued everyday vs different time spans.
+## part1 Plotting number of licences issued everyday vs different time spans.
 
 #### In this part, I will take a narrow down approach 
 
@@ -142,6 +137,7 @@ The data does not show whether or not the business owners respond to the economi
 Dataset from 
 - [City of Vancouver Business licences: 1997-2012](https://opendata.vancouver.ca/explore/dataset/business-licences-1997-to-2012/export/?disjunctive.status&disjunctive.businesssubtype)
 - [City of Vancouver Business licences: 2013-2023](https://opendata.vancouver.ca/explore/dataset/business-licences/information/?disjunctive.status&disjunctive.businesssubtype)
+- [Canadian Economics data](https://www.macrotrends.net/countries/CAN/canada/inflation-rate-cpi)
 
 
 Used informatations from [Statistics Canada](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310027001&pickMembers%5B0%5D=1.42&pickMembers%5B1%5D=2.1&cubeTimeFrame.startMonth=05&cubeTimeFrame.startYear=2022&cubeTimeFrame.endMonth=09&cubeTimeFrame.endYear=2022&referencePeriods=20220501%2C20220901)
