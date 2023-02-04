@@ -109,17 +109,11 @@ the number of each year's business licenses.
 
 ## Part2 Testing Hypothesis: Is there correlation between changes in number of licenses and mesurements of ecnomy ?
 
-The data does not show whether or not the business owners respond to the economic circumstances.
+Strong Linear relationship is not found 
 
-![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/corr_normal.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/corr_normal.png)
-- The plot shows there is not a strong linear relationship between 
-- Assuming business owner apply for new licenses based on same year's economy.
-- For example, if the economy is bad during the year, the owner might shut down the busienss, or suspend it.
+Plot1: standardized changes in GNP vs Business license issued number.
 
-![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/cor_shift.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/cor_shift.png)
 
-- The plot shows there is not a strong linear relationship between 
-- Assuming business owner apply for new licenses based on previous year's economy.
 
 
 ![]()
