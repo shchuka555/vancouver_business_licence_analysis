@@ -67,10 +67,9 @@ In this project
 - Let's narrow down again to determine the factor of fluctuations.
 ### 5
 ![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/2016_nov.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/2016_nov.png)
-- According to the [year 2016 calendar](https://www.timeanddate.com/calendar/?year=2016&country=27), the days which have significantly low number of issued licences are weekends or Holiday. For example, there are 3 with low number of issued licences in a row because the first day was Remembrance Day(Holiday).
+- According to the [year 2016 calendar](https://www.timeanddate.com/calendar/?year=2016&country=27), the days which have significantly low number of issued licences are weekends or holidays.
 - It seems plausible to think the number of applications issued drops during weekend and holidays because most workers do not work on these days.
--  Yet, still surprising to see some workers still work on holidays to process the applications for business licenses.
-
+-  Yet, still surprising to see some workers still process the business licenses applications on holidays.
 
 ## Figure5: Hourly counts.
 
@@ -78,15 +77,15 @@ In this project
 ![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/hour_detail_count.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/hour_detail_count.png)
 
 ### First plot.
-- This first plot shows licences were issued during the standard working hours (8 am~6 pm).
+- This first plot shows licences were issued during the standard working hours (8am~6pm).
 - Assuming the following things
-  - Productivity of officers is highly correlated with the number of licences/permissions they issue
+  - Productivity of officers is highly correlated with the number of licences/permissions they issue.
   - Workers work between 8am to 6pm and take a lunch break between 12 to 1pm. 
  - The plot seems consistent with the productivity of standard office workers because the number increases throughout noon. The peak is between 10 am and 12 pm, but the number decreases during lunch break. After the break, the number of applications issued increased from 1~3pm but kept falling again after 3 pm till the end of work time.
 - If the above two assumptions are valid, then it is possible to think officers of business licences work normally.
 
 ### Second plot.
-- Splitted the countings into each of those most actively issued months 
+- Splitted the countings into each of those most actively issued months. 
 - It shows hourly changes in workers productivity are consistent regardelss of months.
 
 ## Figure6: Percentage changes in number of licenses for each license holding year.
@@ -94,16 +93,14 @@ In this project
 ![https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/pct_change_year_bar.png](https://github.com/shchuka555/vancouver_business_licence_analysis/blob/main/figures/pct_change_year_bar.png)
 
 ### First plot.
-- This plot shows changes in total number of each year's business licenses comapred with previous year.
-- There is an upward trend.
+- This plot shows an upward trend in total number of business licenses issued in each years.
 - Also there are some fluctuations. For example, it significantly droped in 2020 and presumably due to the pamdemic of covid-19. 
 - Despite there are some big drops in 2020, the number got recovered in 2022. 
 - The question is **"Are these values correlated with changes in Canadian economy?"**
 
 ### Second plot.
 - This plot shows same data as previous plot but in bar chart and shows percentage changes in number of licenses compared with preivious year.
-- It shows there are tiny decrease in number of licences in 2008 comapred with 2007, which should be much bigger drops if the economy is correlated with 
-the number of each year's business licenses.
+- It shows there are tiny decrease in number of licences in 2008 comapred with 2007, which should be much bigger drops if the economy is positively correlated with the number of each year's business licenses.
 
 ## Part2 Testing Hypothesis: Is there correlation between changes in number of licenses and mesurements of ecnomy ?
 
@@ -131,7 +128,7 @@ Plot2: Standardized changes in GNP vs Business license issued number part 2.
 
 ### Summary 
 - It seems plausible to assume business owners responded to the previous year's domestic economy when it is stable. Stable means neither rapid growth nor strong recession.
-- Also plausible to assume business owners responded to the same year's domestic economy since 2020. 
+- Also plausible to assume business owners started responding to the same year's domestic economy since 2020. 
 - Although changes in GNP does not fit perfectly well with changes in number of business license issued, GNP growth rate can be use as a approximate predictor in  business license issues for next year.
 
 
