@@ -24,9 +24,6 @@ In this project
 - Analyzed dataset and found trends and seasonality on yearly changes in the number of business licenses issued.
 - Hypothesised there is a relationship between economic circumstances and tested it by calculating the correlation between percentage changes in the number of licenses issued each year and measurements of economies. Examples of such measurements are GDP, GNP, and Inflation rate.
 
-
-- Bonus section, plotted number of fianancial institutions located in each Vancouver distrcits.
- 
 ## Questions_to_answer
 - **Q1 Are there any trends/seasonalities in the time when licences were issued?**
 - **21 Are there any trends/seasonalities in the number of issued licences for each license year?**
